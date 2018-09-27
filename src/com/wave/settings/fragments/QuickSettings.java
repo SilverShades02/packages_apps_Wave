@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -41,7 +41,7 @@ import android.view.View;
 import java.util.List;
 import java.util.ArrayList;
 
-import com.liquid.liquidlounge.preferences.CustomSeekBarPreference;
+import com.wave.settings.preferences.CustomSeekBarPreference;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -81,6 +81,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

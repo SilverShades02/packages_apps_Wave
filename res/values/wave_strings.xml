@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App title -->
-    <string name="app_settings_title">Liquid Lounge</string>
+    <string name="app_settings_title">Shore</string>
 
     <!-- Buttons -->
     <string name="button_title">Buttons</string>
@@ -26,7 +26,7 @@
     <!-- Gestures -->
     <string name="gesture_title">Gestures</string>
     <string name="gesture_summary">Quick gestures to perform actions on your device</string>
-    <string name="gesture_preference_liquid">AOSP gestures</string>
+    <string name="gesture_preference_wave">AOSP gestures</string>
 
     <!-- Lock screen -->
     <string name="lockscreen_title">Lock screen</string>

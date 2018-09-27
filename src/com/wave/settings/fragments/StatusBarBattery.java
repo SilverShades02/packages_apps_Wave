@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
@@ -68,7 +68,7 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LIQUID;
+        return MetricsEvent.WAVE_SETTINGS;
     }
 
     @Override

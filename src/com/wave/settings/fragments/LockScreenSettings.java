@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -36,7 +36,7 @@ import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.liquid.liquidlounge.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -96,6 +96,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

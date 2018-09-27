@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.preferences;
+package com.wave.settings.preferences;
 
 import android.content.Context;
 import android.support.v7.preference.EditTextPreference;

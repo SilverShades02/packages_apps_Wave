@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -35,7 +35,7 @@ public class OmniGestureSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LIQUID;
+        return MetricsEvent.WAVE_SETTINGS;
     }
 
     public void onCreate(Bundle savedInstanceState) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.os.Bundle;
 import com.android.settings.R;
@@ -26,7 +26,7 @@ import android.support.v7.preference.PreferenceScreen;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.liquid.liquidlounge.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 public class NotificationsSettings extends SettingsPreferenceFragment {
 
@@ -56,6 +56,6 @@ public class NotificationsSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -41,7 +41,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-import com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference;
+import com.wave.settings.preferences.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.Date;
@@ -139,7 +139,7 @@ public class ClockSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
     @Override

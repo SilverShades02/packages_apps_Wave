@@ -21,7 +21,7 @@
 
     <Preference
         android:key="gesture_settings"
-        android:title="@string/gesture_preference_liquid"
+        android:title="@string/gesture_preference_wave"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
@@ -29,9 +29,9 @@
         android:key="gesture_settings"
         android:title="@string/gesture_settings_title"
         android:summary="@string/gesture_settings_summary"
-        android:fragment="com.liquid.liquidlounge.fragments.OmniGestureSettings" />
+        android:fragment="com.wave.settings.fragments.OmniGestureSettings" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="torch_long_press_power_gesture"
         android:title="@string/torch_long_press_power_gesture_title"
         android:summary="@string/torch_long_press_power_gesture_desc"
@@ -51,13 +51,13 @@
          android:key="dtts_category"
          android:title="@string/dtts_category_header" >
 
-        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        <com.wave.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_to_sleep_title"
             android:summary="@string/double_tap_to_sleep_summary"
             android:defaultValue="false" />
 
-        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        <com.wave.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_lockscreen"
             android:title="@string/double_tap_to_sleep_lockscreen_title"
             android:summary="@string/double_tap_to_sleep_lockscreen_summary"

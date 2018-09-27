@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -66,6 +66,6 @@ public class GestureSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

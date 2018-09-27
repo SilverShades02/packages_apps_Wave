@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -32,7 +32,7 @@ import android.support.v7.preference.PreferenceViewHolder;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup; 
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
@@ -40,8 +40,8 @@ import android.widget.ListView;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.liquid.liquidlounge.preferences.PackageListAdapter;
-import com.liquid.liquidlounge.preferences.PackageListAdapter.PackageItem;
+import com.wave.settings.preferences.PackageListAdapter;
+import com.wave.settings.preferences.PackageListAdapter.PackageItem;
 import android.provider.Settings;
 
 import java.util.ArrayList;
@@ -165,13 +165,13 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
     @Override
     public int getDialogMetricsCategory(int dialogId) {
         if (dialogId == DIALOG_STOPLIST_APPS || dialogId == DIALOG_BLACKLIST_APPS ) {
-            return MetricsProto.MetricsEvent.LIQUID;
+            return MetricsProto.MetricsEvent.WAVE_SETTINGS;
         }
         return 0;
     }

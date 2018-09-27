@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge;
+package com.wave.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -31,11 +31,11 @@ import android.view.Surface;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import com.android.settings.R;
-import com.liquid.liquidlounge.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LiquidLoungeSettings extends SettingsPreferenceFragment {
+public class WaveSettings extends SettingsPreferenceFragment {
 
     private static final String RECENTS_CATEGORY = "recents_category";
     private static final String ACTION_QUICKSTEP = "android.intent.action.QUICKSTEP_SERVICE";
@@ -44,7 +44,7 @@ public class LiquidLoungeSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.liquid_settings);
+        addPreferencesFromResource(R.xml.wave_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
@@ -57,7 +57,7 @@ public class LiquidLoungeSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

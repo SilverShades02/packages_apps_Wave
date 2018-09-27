@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
@@ -67,6 +67,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

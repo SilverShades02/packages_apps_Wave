@@ -19,13 +19,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/volume_title">
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
@@ -38,7 +38,7 @@
         android:key="volume_key_cursor_control"
         android:title="@string/volume_key_cursor_control_title" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="call_volume_answer"
         android:title="@string/volume_answer_call_title"
         android:summary="@string/volume_answer_call_summary"

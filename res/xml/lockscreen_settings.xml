@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lockscreen_title">
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
@@ -44,7 +44,7 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_media_metadata"
         android:title="@string/media_art_title"
         android:summary="@string/media_art_summary"

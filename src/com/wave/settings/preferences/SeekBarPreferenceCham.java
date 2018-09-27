@@ -1,4 +1,4 @@
-package com.liquid.liquidlounge.preferences;
+package com.wave.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;

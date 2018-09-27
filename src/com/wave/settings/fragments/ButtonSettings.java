@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -32,9 +32,9 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 
-import com.liquid.liquidlounge.preferences.ActionFragment;
-import com.liquid.liquidlounge.preferences.CustomSeekBarPreference;
-import com.liquid.liquidlounge.preferences.Utils;
+import com.wave.settings.preferences.ActionFragment;
+import com.wave.settings.preferences.CustomSeekBarPreference;
+import com.wave.settings.preferences.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
@@ -237,6 +237,6 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

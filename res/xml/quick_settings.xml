@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_title">
 
-    <com.liquid.liquidlounge.preferences.CustomSeekBarPreference
+    <com.wave.settings.preferences.CustomSeekBarPreference
         android:key="qs_panel_bg_alpha"
         android:title="@string/qs_panel_alpha_title"
         android:max="255"
@@ -27,26 +27,26 @@
         settings:units=""
         android:persistent="false" />
 
-    <com.liquid.liquidlounge.preferences.SecureSettingSwitchPreference
+    <com.wave.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/qs_show_brightness_title"
         android:summary="@string/qs_show_brightness_summary"
         android:defaultValue="true" />
 
-    <com.liquid.liquidlounge.preferences.SecureSettingSwitchPreference
+    <com.wave.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_brightness_position_bottom"
         android:title="@string/qs_brightness_position_bottom_title"
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false"
         android:dependency="qs_show_brightness" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_footer_warnings"
         android:title="@string/qs_footer_warnings_title"
         android:summary="@string/qs_footer_warnings_summary"
         android:defaultValue="true" />
 
-    <com.liquid.liquidlounge.preferences.SecureSettingSwitchPreference
+    <com.wave.settings.preferences.SecureSettingSwitchPreference
         android:key="quick_settings_vibrate"
         android:title="@string/quick_settings_vibrate_title"
         android:summary="@string/quick_settings_vibrate_summary"

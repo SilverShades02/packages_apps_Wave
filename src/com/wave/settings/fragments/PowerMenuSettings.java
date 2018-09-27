@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -36,7 +36,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.liquid.liquidlounge.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 public class PowerMenuSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -107,6 +107,6 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

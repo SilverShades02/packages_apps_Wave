@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -180,7 +180,7 @@ public class AlarmBlocker extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
     @Override

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.liquid.liquidlounge.fragments;
+package com.wave.settings.fragments;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -36,8 +36,8 @@ import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-import com.liquid.liquidlounge.preferences.CustomSeekBarPreference;
-import com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference;
+import com.wave.settings.preferences.CustomSeekBarPreference;
+import com.wave.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
@@ -98,6 +98,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }
